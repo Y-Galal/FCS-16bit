@@ -77,6 +77,8 @@
 !*.rpt
 !*.txt
 !*.vdi
+!*.pdf
+!Design.png
 #########
 #C-files
 #########
