@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FCS.srcs/sources_1/new/FCS.v" \
+"../../../../FCS.srcs/sources_1/new/counter.v" \
+"../../../../FCS.srcs/sources_1/new/shiftReg.v" \
+"../../../../FCS.srcs/sim_1/new/FCS_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
